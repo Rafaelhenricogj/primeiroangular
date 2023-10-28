@@ -1,0 +1,14 @@
+a{
+    font-size: 20px;
+}
+.uk-container{
+    padding: 0 20px;
+}
+@media (max-width: 500px){
+    .uk-offcanvas-bar {
+        width: 40%;
+    }
+    a{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,33 @@
+<nav class="uk-navbar-container">
+    <div class="uk-container">
+        <div uk-navbar>
+
+            <div class="uk-navbar-left">
+                <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon uk-toggle="target: #offcanvas-nav"></a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div id="offcanvas-nav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <ul class="uk-nav uk-nav-default">
+            <li class="uk-active"><a>Site</a></li>
+            <li class="uk-parent">
+                <a routerLink="/">Informações</a>
+                <ul class="uk-nav-sub">
+                    <li><a routerLink="/form">Formulário</a></li>
+                    <li><a routerLink="/slide">Slide</a></li>
+                </ul>
+            </li>
+            <li class="uk-nav-header">Outros</li>
+            <li><a href="https://atividadesdohenrico.netlify.app/">Atividades</a></li>
+            <li><a href="https://ifgoiano.edu.br/home/index.php/urutai.html">IF Goiano</a></li>
+            <li class="uk-nav-divider"></li>
+            <li><a href="https://github.com/Rafaelhenricogj">GitHub</a></li>
+        </ul>
+
+    </div>
+</div>
